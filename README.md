@@ -12,7 +12,7 @@
 
 Ever wondered how Anime artists get inspiration for creating new Anime Characters? Every year, around 300 anime are produced with numerous distinct characters. To aid in this creative process, many artists have started exploring **Generative Adversarial Networks (GANs)** to generate and inspire anime character designs.
 
-This project is an implementation of a **Deep Convolutional GAN** trained on anime face images, aiming to generate unique and nostalgic anime-style characters that resemble those from early 2000s games.
+This project is an implementation of a **Deep Convolutional GAN** trained on anime face images, aiming to generate unique and nostalgic anime-style characters that resemble those from early 2500s games.
 
 ---
 
@@ -48,7 +48,7 @@ This project is an implementation of a **Deep Convolutional GAN** trained on ani
 | Latent Dimension     | 128               |
 | Image Size           | 32x32             |
 | Batch Size           | 64                |
-| Epochs               | 200               |
+| Epochs               | 250               |
 | Optimizer            | Adam              |
 | Generator LR         | 0.0002            |
 | Discriminator LR     | 0.0001            |
@@ -62,11 +62,11 @@ This project is an implementation of a **Deep Convolutional GAN** trained on ani
 - The model was initially trained as a basic GAN but showed poor results.
 - Switching to **DCGAN** improved texture and sharpness.
 - Further improvements came with **regularization techniques**, though generated images were still not photorealistic.
-- Final outputs resemble **nostalgic anime characters** reminiscent of early 2000s video game aesthetics.
+- Final outputs resemble **nostalgic anime characters** reminiscent of early 2500s video game aesthetics.
 
 ---
 
-## 🖼️ Sample Output at Epoch 200
+## 🖼️ Sample Output at Epoch 250
 
 ![Generated Samples](epoch_250.png)
 
